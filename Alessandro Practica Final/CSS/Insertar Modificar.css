@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Taller2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 550px;
+    height: 270px;
+    backdrop-filter: blur(4px);
+    margin-top: 100px;
+}
+
+h2{
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0px 0px 80px 0px;
+}
+
+input[type="submit"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d40000;
+    color: white;
+    cursor: pointer;
+    margin: 0px 40px 0px 40px;
+    transition: 0.4s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #a40000;
+}
